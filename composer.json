@@ -1,0 +1,21 @@
+{
+    "name": "oxygenzsas/composer_lib_twig_renderer",
+    "description": "Twig renderer",
+    "license": "MIT",
+    "keywords": ["twig", "renderer"],
+    "authors": [
+        {
+            "name": "nvanhaezebrouck",
+            "email": "nicolas@oxygenz.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "OxygenzSAS\\TwigRenderer\\" : "src/"
+        }
+    },
+    "require": {
+        "oxygenzsas/composer_lib_interfaces": "^0.2",
+        "twig/twig": "~3.0"
+    }
+}
