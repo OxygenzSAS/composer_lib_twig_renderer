@@ -15,7 +15,7 @@ class TwigRenderer implements RendererInterface
      * @param null|string $path_to_cache
      * @param callback|null $lang_callback
      */
-    public function __construct(string|array $path_to_templates, string|bool $path_to_cache = false, callable $lang_callback = null)
+    public function __construct(string|array $path_to_templates, string|bool $path_to_cache = false, callable|null $lang_callback = null)
     {
 
         $loader = new \Twig\Loader\FilesystemLoader($path_to_templates);
